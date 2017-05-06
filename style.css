@@ -64,7 +64,7 @@ button {
    #newimage button:hover {
     text-decoration:none;
     /*background-color: transparent;*/
-    background-color: #778899
+    background-color: #778899;
     color:#f2f2f2;
     margin-color:#f2f2f2;
    	 }
