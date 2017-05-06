@@ -1,0 +1,25 @@
+﻿/* Load the Font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
+
+/* General CSS */
+/*html {background: url('https://source.unsplash.com/1600x900/?tropic'); background-size: cover;}*/
+html {background: url('https://source.unsplash.com/random/1600x900'); background-size: cover;}
+a {color:#FFF; text-decoration:none;}
+a:hover {color: #d3f0ff; text-decoration:none;}
+input:focus,select:focus,textarea:focus,button:focus { outline: none; }
+
+/* BTL Home */
+.btl-home {margin: 0px; background: rgba(0, 0, 0, 0.30); font-family: 'Montserrat', sans-serif; height: 100%;}
+
+    /* BTL Header */
+    .btl-head .btl-user.active .btl-userid {display:none;}
+    .btl-head .btl-user.active .btl-userstats {display:none;}
+    .btl-head .btl-user.active .mobile-menu {display:block;font-size: 36px;position: absolute;line-height: 60px;}
+    .btl-head .btl-user.active.mobile-open {background: rgba(0, 0, 0, 0.68);margin: -20px;padding: 20px;position: absolute;top: 0;left: 0;right: 0;z-index: 1;border-top: 80px solid #484848;}
+    .btl-head .btl-user.active.mobile-open .btl-userid {display:block;}
+    .btl-head .btl-user.active.mobile-open .btl-userstats {display:block;}
+    .btl-head .btl-user.active.mobile-open .mobile-menu {display:block;display:block; font-size: 36px;position: absolute;top: -60px;}
+    .btl-head .btl-user.active.mobile-open .btl-userid .btl-userid-id {display: block ;width:auto;}
+
+}
+
