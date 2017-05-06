@@ -52,11 +52,17 @@ button {
 
     text-decoration:none;
     background-color: transparent;
-    color:#f2f2f2;
+    color:rgba(255,255,255,0.7);
 
     -webkit-transition:all linear 0.30s;
     -moz-transition:all linear 0.30s;
     transition:all linear 0.30s;
 
     }
-   #newimage button:hover { background:rgba(255,255,255,0.7); }
+
+   #newimage button:hover {
+    text-decoration:none;
+    background-color: transparent;
+    color:#f2f2f2;
+    margin-color:#f2f2f2;
+   	 }
