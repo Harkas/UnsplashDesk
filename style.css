@@ -23,3 +23,13 @@ input:focus,select:focus,textarea:focus,button:focus { outline: none; }
 
 }
 
+.newimage {
+    font-size: 15px;
+    padding: 8px 16px 10px;
+    margin-bottom: 24px;
+    color: rgba(255,255,255,0.7);
+    border-color: rgba(255,255,255,0.7);
+    font-size: 12px;
+    padding: 6px 10px;
+    margin-bottom: 12px;
+  }
