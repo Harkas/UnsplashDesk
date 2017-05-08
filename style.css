@@ -41,7 +41,7 @@ button {
 
 #newimage{
 	margin:30px;
-	height:40px;
+	height:20px;
 	margin-color:rgba(255,255,255,0.7);
 }
 
@@ -64,7 +64,8 @@ button {
    #newimage button:hover {
     text-decoration:none;
     /*background-color: transparent;*/
-    background-color: #778899;
     color:#f2f2f2;
+    background-color:rgb(143, 153, 169);
     margin-color:#f2f2f2;
    	 }
+
